@@ -25,6 +25,8 @@ GeneXus 18 u5:  "C:\Program Files (x86)\GeneXus\GeneXus18\GeneXus.exe"
 
 Configuracion: Tomcat Patch: T:\Apache_Tomcat
 
+
+
 Servlet Directory: T:\Apache_Tomcat\webapps\Abonos218U5JavaPostgreSQL\WEB-INF\classes
 
 Static Direct Directory T:\Apache_Tomcat\webapps\Abonos218U5JavaPostgreSQL\static
@@ -40,6 +42,29 @@ Tomcat 9: T:\Apache_Tomcat\bin\tomcat9.exe   System Requirements  JDK 1.7 or abo
 Java 8 Portable 1.8.0_321:  T:\Programas\jdk\bin\javac.exe
 
 Apache Maven: T:\Programas\apache-maven\bin
+
+Creacion VAriables de Entrno:
+
+[Environment]::SetEnvironmentVariable("JAVA_HOME","T:\Programas\jdk","Machine")
+[Environment]::SetEnvironmentVariable("MAVEN_HOME","T:\Programas\apache-maven","Machine")
+[Environment]::SetEnvironmentVariable("CATALINA_HOME","T:\Apache_Tomcat","Machine")
+[Environment]::SetEnvironmentVariable("CATALINA_BASE","T:\Apache_Tomcat","Machine")
+
+$path=[Environment]::GetEnvironmentVariable("Path","Machine")
+
+if($path -notlike "*T:\Programas\jdk\bin*"){
+    $path += ";T:\Programas\jdk\bin"
+}
+
+if($path -notlike "*T:\Programas\apache-maven\bin*"){
+    $path += ";T:\Programas\apache-maven\bin"
+}
+
+if($path -notlike "*T:\Apache_Tomcat\bin*"){
+    $path += ";T:\Apache_Tomcat\bin"
+}
+
+[Environment]::SetEnvironmentVariable("Path",$path,"Machine")
 
 
 

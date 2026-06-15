@@ -127,13 +127,20 @@ Container  : sql_gx_server
 Image      : mcr.microsoft.com/mssql/server:2022-latest (v16.0.4255.1)
 Puerto     : 1433 → 0.0.0.0:1433
 RAM limit  : 2GB
-SA_PASSWORD: Mauro1978!
 Datos      : T:/Docker_Volumes/SQL/data → /var/opt/mssql/data
 KBs mount  : T:/Kbs → /var/opt/mssql/kbs
 Red        : docker_environment_gx_net | IP: 172.18.0.2 | GW: 172.18.0.1
 Compose    : T:\Docker_Environment\docker-compose.yml
-Module     : GeneXus   (Version: 4.6.1.176887)
 ```
+
+**Credenciales SQL:**
+
+| Usuario | Clave      | Rol       |
+|---------|------------|-----------|
+| sa      | Mauro1978! | sysadmin  |
+| mauro   | mauro123   | usuario   |
+| admin   | admin123   | usuario   |
+| gx      | gx123      | usuario   |
 
 ---
 
@@ -308,4 +315,4 @@ Generar CONTINUATION PROMPT (formato Phase 6, lista para nueva sesión).
 - Comprimir agresivamente snapshots y transfer prompts.
 - Tono: técnico y directo.
 
-# ── 2026-06-15 | Soporte Técnico ──
+# ── 2026-06-15T21:00 | Soporte Técnico ──

@@ -155,6 +155,14 @@ T:\Kbs\Abonos218U5Dario\DESA\web\gradlew.bat clean -PTOMCAT_WEBAPP_PATH="T:\Apac
 
 > Path CORRECTO y ÚNICO: `T:\Apache_Tomcat\webapps\Abonos218U5JavaPostgreSQL`
 
+
+
+--- DATASTORES  Abonos ---
+1 ABONOS (Posgres)
+2 DBANEP (Posgres)
+3 DBVARIOS (Posgres)
+----
+
 ---
 
 # ERRORES CONOCIDOS DEL BUILD

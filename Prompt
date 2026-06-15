@@ -63,6 +63,283 @@ Success: Copy Module 'GeneXus'
 Success: Copy Module 'Extensions'
 ========== Target Environment update started ==========
 
+Rebuild All
+Generating to DESA\web\src\main\java\uy\edu\dgeip\abonos\setreintegrobaja.java
+Generating to DESA\web\src\main\java\uy\edu\dgeip\abonos\setreintegroautoriza.java
+error spc0224: Module GeneXus\Common not available for Java Web environment. (Procedure 'ExportWWEmpFac', Details)
+ Specifying CtrOpMenPerUsu ...
+ Specifying ExportWWEmpresa ...
+error spc0224: Module GeneXus not available for Java Web environment. (Procedure 'ValidoCorreoyCedulaUnico', Details)
+error spc0224: Module GeneXus\Common not available for Java Web environment. (Procedure 'ExportWWEmpresa', Details)
+ Specifying LoadContextMasterPage ...
+Generating to DESA\web\src\main\java\uy\edu\dgeip\abonos\ctropmenperusu.java
+
+
+Generating to DESA\web\js\gxcfg.js
+Generating to DESA\web\src\main\java\uy\edu\dgeip\abonos\GXcfg.java
+Generating to DESA\web\src\main\java\uy\edu\dgeip\abonos\client.cfg
+Generating to DESA\web\web.xml
+Generating to DESA\web\bld12.info
+Generating to DESA\web\src\main\java\uy\edu\dgeip\abonos\GxFullTextSearchReindexer.java
+Generating to DESA\web\src\main\java\uy\edu\dgeip\abonos\SoapParm.java
+Success: Default (Java) Generation
+File 'GXPRNiniWildflyWEBINF' copied to "T:\Apache_Tomcat\webapps\Abonos218U5JavaPostgreSQL\WEB-INF\GXPRN.INI"
+File 'PDFReportiniWildflyWEBINF/3OF9' copied to "T:\Apache_Tomcat\webapps\Abonos218U5JavaPostgreSQL\WEB-INF\PDFReport.ini"
+File '3OF9TTFWEBINF' copied to "T:\Apache_Tomcat\webapps\Abonos218U5JavaPostgreSQL\WEB-INF\3OF9.TTF"
+File 'itextasian152jar' copied to "T:\Apache_Tomcat\webapps\Abonos218U5JavaPostgreSQL\drivers\itextasian-1.5.2.jar"
+File 'core-353jar' copied to "T:\Apache_Tomcat\webapps\Abonos218U5JavaPostgreSQL\drivers\core-3.5.3.jar"
+File 'javase-353jar' copied to "T:\Apache_Tomcat\webapps\Abonos218U5JavaPostgreSQL\drivers\javase-3.5.3.jar"
+File 'itextpdf-55133jar' copied to "T:\Apache_Tomcat\webapps\Abonos218U5JavaPostgreSQL\drivers\itextpdf-5.5.13.3.jar"
+File 'barcode-generatorjar' copied to "T:\Apache_Tomcat\webapps\Abonos218U5JavaPostgreSQL\drivers\barcode-generator.jar"
+Compressing static files...Success
+========== DeveloperMenu Compilation for Default (Java) started ==========
+T:\Kbs\Abonos218U5Dario\DESA\web\gradlew.bat build -Dorg.gradle.jvmargs=-Xmx1024m
+> Configure project :
+apply services.webnotifications.genexus.gradle
+> Task :assemble
+> Task :check
+> Task :build
+> Task :compileJava
+T:\Kbs\Abonos218U5Dario\DESA\web\src\main\java\uy\edu\dgeip\abonos\actimpabomes.java:177: error: cannot find symbol
+      new uy.edu.dgeip.abonos.inslogsis(remoteHandle, context).execute( AV16Pgmname, AV13LogSisValo) ;
+                             ^
+  symbol:   class inslogsis
+  location: package uy.edu.dgeip.abonos
+T:\Kbs\Abonos218U5Dario\DESA\web\src\main\java\uy\edu\dgeip\abonos\addllamadosproducciontodaslasreferencias.java:51: error: package uy.edu.dgeip.abonos.general.ui does not exist
+         new uy.edu.dgeip.abonos.general.ui.listprograms(remoteHandle, context).execute( GXv_objcol_SdtProgramNames_ProgramName2) ;
+                                           ^
+T:\Kbs\Abonos218U5Dario\DESA\web\src\main\java\uy\edu\dgeip\abonos\addllamadosproducciontodaslasreferencias.java:66: error: package uy.edu.dgeip.abonos.general.ui does not exist
+         new uy.edu.dgeip.abonos.general.ui.listprograms(remoteHandle, context).execute( GXv_objcol_SdtProgramNames_ProgramName2) ;
+                                           ^
+T:\Kbs\Abonos218U5Dario\DESA\web\src\main\java\uy\edu\dgeip\abonos\addllamadosproducciontodaslasreferencias.java:141: error: cannot find symbol
+         new uy.edu.dgeip.abonos.inslogsis(remoteHandle, context).execute( "", "") ;
+                                ^
+  symbol:   class inslogsis
+  location: package uy.edu.dgeip.abonos
+T:\Kbs\Abonos218U5Dario\DESA\web\src\main\java\uy\edu\dgeip\abonos\addllamadosproducciontodaslasreferencias.java:158: error: cannot find symbol
+         new uy.edu.dgeip.abonos.gpxmenudinamicoceip(remoteHandle, context).execute( (short)(0), (short)(0), (short)(0), GXv_objcol_SdtgpxMenuItems_gpxMenuItem16) ;
+                                ^
+  symbol:   class gpxmenudinamicoceip
+  location: package uy.edu.dgeip.abonos
+T:\Kbs\Abonos218U5Dario\DESA\web\src\main\java\uy\edu\dgeip\abonos\addllamadosproducciontodaslasreferencias.java:161: error: cannot find symbol
+         new uy.edu.dgeip.abonos.obtempnom(remoteHandle, context).execute( AV18EmpId, GXv_char13) ;
+                                ^
+  symbol:   class obtempnom
+  location: package uy.edu.dgeip.abonos
+T:\Kbs\Abonos218U5Dario\DESA\web\src\main\java\uy\edu\dgeip\abonos\arptimpabonos_impl.java:111: error: cannot find symbol
+            new uy.edu.dgeip.abonos.obtempnom(remoteHandle, context).execute( AV16EmpId, GXv_char2) ;
+                                   ^
+  symbol:   class obtempnom
+  location: package uy.edu.dgeip.abonos
+T:\Kbs\Abonos218U5Dario\DESA\web\src\main\java\uy\edu\dgeip\abonos\arptimpabonos_impl.java:266: error: cannot find symbol
+                     new uy.edu.dgeip.abonos.obtempnom(remoteHandle, context).execute( A116EmpId, GXv_char2) ;
+                                            ^
+  symbol:   class obtempnom
+  location: package uy.edu.dgeip.abonos
+T:\Kbs\Abonos218U5Dario\DESA\web\src\main\java\uy\edu\dgeip\abonos\arptimpabonos_impl.java:471: error: cannot find symbol
+               new uy.edu.dgeip.abonos.obtempnom(remoteHandle, context).execute( AV35sdtRepImpAboDet.getgxTv_SdtsdtRepImpAbo_sdtRepImpAboItem_Empid(), GXv_char2) ;
+                                      ^
+  symbol:   class obtempnom
+  location: package uy.edu.dgeip.abonos
+T:\Kbs\Abonos218U5Dario\DESA\web\src\main\java\uy\edu\dgeip\abonos\arpttotpromesabonos_impl.java:118: error: cannot find symbol
+            new uy.edu.dgeip.abonos.obtempnom(remoteHandle, context).execute( AV19EmpId, GXv_char2) ;
+                                   ^
+  symbol:   class obtempnom
+  location: package uy.edu.dgeip.abonos
+T:\Kbs\Abonos218U5Dario\DESA\web\src\main\java\uy\edu\dgeip\abonos\arpttotpromesabonos_impl.java:257: error: cannot find symbol
+                     new uy.edu.dgeip.abonos.obtempnom(remoteHandle, context).execute( A116EmpId, GXv_char2) ;
+                                            ^
+  symbol:   class obtempnom
+  location: package uy.edu.dgeip.abonos
+T:\Kbs\Abonos218U5Dario\DESA\web\src\main\java\uy\edu\dgeip\abonos\arpttotpromesabonos_impl.java:577: error: cannot find symbol
+               new uy.edu.dgeip.abonos.obtempnom(remoteHandle, context).execute( AV44sdtRepTotProMesDet.getgxTv_SdtsdtRepTotProMes_sdtRepTotProMesItem_Empid(), GXv_char2) ;
+                                      ^
+  symbol:   class obtempnom
+  location: package uy.edu.dgeip.abonos
+T:\Kbs\Abonos218U5Dario\DESA\web\src\main\java\uy\edu\dgeip\abonos\calcmes.java:46: error: cannot find symbol
+      new uy.edu.dgeip.abonos.actusuultacc(remoteHandle, context).execute( ) ;
+                             ^
+  symbol:   class actusuultacc
+  location: package uy.edu.dgeip.abonos
+T:\Kbs\Abonos218U5Dario\DESA\web\src\main\java\uy\edu\dgeip\abonos\calcviaabi_impl.java:676: error: cannot find symbol
+      new uy.edu.dgeip.abonos.isauthorized(remoteHandle, context).execute( AV14Pgmname, GXv_boolean2) ;
+                             ^
+  symbol:   class isauthorized
+  location: package uy.edu.dgeip.abonos
+T:\Kbs\Abonos218U5Dario\DESA\web\src\main\java\uy\edu\dgeip\abonos\carimpabomes.java:53: error: cannot find symbol
+      new uy.edu.dgeip.abonos.actusuultacc(remoteHandle, context).execute( ) ;
+                             ^
+  symbol:   class actusuultacc
+  location: package uy.edu.dgeip.abonos
+T:\Kbs\Abonos218U5Dario\DESA\web\src\main\java\uy\edu\dgeip\abonos\carimpabo_impl.java:686: error: cannot find symbol
+      new uy.edu.dgeip.abonos.isauthorized(remoteHandle, context).execute( AV12Pgmname, GXv_boolean2) ;
+                             ^
+  symbol:   class isauthorized
+  location: package uy.edu.dgeip.abonos
+T:\Kbs\Abonos218U5Dario\DESA\web\src\main\java\uy\edu\dgeip\abonos\ceiprwdmenu_impl.java:756: error: cannot find symbol
+      new uy.edu.dgeip.abonos.gpxmenudinamicoceip(remoteHandle, context).execute( AV9PerUsuId, AV5AdminPerUsuId, AV8OpMenSupId, GXv_objcol_SdtgpxMenuItems_gpxMenuItem4) ;
+                             ^
+  symbol:   class gpxmenudinamicoceip
+  location: package uy.edu.dgeip.abonos
+T:\Kbs\Abonos218U5Dario\DESA\web\src\main\java\uy\edu\dgeip\abonos\devabo_impl.java:741: error: cannot find symbol
+      new uy.edu.dgeip.abonos.isauthorized(remoteHandle, context).execute( AV29Pgmname, GXv_boolean2) ;
+                             ^
+  symbol:   class isauthorized
+  location: package uy.edu.dgeip.abonos
+T:\Kbs\Abonos218U5Dario\DESA\web\src\main\java\uy\edu\dgeip\abonos\emisionabonosinspeccion_impl.java:1046: error: cannot find symbol
+      new uy.edu.dgeip.abonos.isauthorized(remoteHandle, context).execute( AV29Pgmname, GXv_boolean1) ;
+                             ^
+  symbol:   class isauthorized
+  location: package uy.edu.dgeip.abonos
+T:\Kbs\Abonos218U5Dario\DESA\web\src\main\java\uy\edu\dgeip\abonos\emisionacreayemiteceipsolici_impl.java:983: error: cannot find symbol
+      new uy.edu.dgeip.abonos.isauthorized(remoteHandle, context).execute( AV30Pgmname, GXv_boolean2) ;
+                             ^
+  symbol:   class isauthorized
+  location: package uy.edu.dgeip.abonos
+T:\Kbs\Abonos218U5Dario\DESA\web\src\main\java\uy\edu\dgeip\abonos\iniconusu.java:42: error: cannot find symbol
+      new uy.edu.dgeip.abonos.actconusu(remoteHandle, context).execute( AV10UsuId, AV9UsuConNew, (byte)(1)) ;
+                             ^
+  symbol:   class actconusu
+  location: package uy.edu.dgeip.abonos
+T:\Kbs\Abonos218U5Dario\DESA\web\src\main\java\uy\edu\dgeip\abonos\obtenerexcelirpf_impl.java:567: error: cannot find symbol
+      new uy.edu.dgeip.abonos.irpfexcel(remoteHandle, context).execute( GXv_char1, GXv_char2) ;
+                             ^
+  symbol:   class irpfexcel
+  location: package uy.edu.dgeip.abonos
+T:\Kbs\Abonos218U5Dario\DESA\web\src\main\java\uy\edu\dgeip\abonos\permanureiefe.java:60: error: cannot find symbol
+         new uy.edu.dgeip.abonos.isauthorized(remoteHandle, context).execute( AV11ObjNom, GXv_boolean3) ;
+                                ^
+  symbol:   class isauthorized
+  location: package uy.edu.dgeip.abonos
+T:\Kbs\Abonos218U5Dario\DESA\web\src\main\java\uy\edu\dgeip\abonos\permautreiefe.java:60: error: cannot find symbol
+         new uy.edu.dgeip.abonos.isauthorized(remoteHandle, context).execute( AV11ObjNom, GXv_boolean3) ;
+                                ^
+  symbol:   class isauthorized
+  location: package uy.edu.dgeip.abonos
+T:\Kbs\Abonos218U5Dario\DESA\web\src\main\java\uy\edu\dgeip\abonos\permreiefe.java:60: error: cannot find symbol
+         new uy.edu.dgeip.abonos.isauthorized(remoteHandle, context).execute( AV11ObjNom, GXv_boolean3) ;
+                                ^
+  symbol:   class isauthorized
+  location: package uy.edu.dgeip.abonos
+T:\Kbs\Abonos218U5Dario\DESA\web\src\main\java\uy\edu\dgeip\abonos\repimpabo_impl.java:881: error: cannot find symbol
+      new uy.edu.dgeip.abonos.obtempnom(remoteHandle, context).execute( AV7EmpId, GXv_char2) ;
+                             ^
+  symbol:   class obtempnom
+  location: package uy.edu.dgeip.abonos
+T:\Kbs\Abonos218U5Dario\DESA\web\src\main\java\uy\edu\dgeip\abonos\reportescontables_impl.java:815: error: cannot find symbol
+      new uy.edu.dgeip.abonos.salidaaexcelporinspeccion(remoteHandle, context).execute( AV9InicioAnio, AV10FinAnio, GXv_char1, GXv_char2) ;
+                             ^
+  symbol:   class salidaaexcelporinspeccion
+  location: package uy.edu.dgeip.abonos
+T:\Kbs\Abonos218U5Dario\DESA\web\src\main\java\uy\edu\dgeip\abonos\reportescontables_impl.java:855: error: cannot find symbol
+      new uy.edu.dgeip.abonos.proyecionfacturadosalidaexcel(remoteHandle, context).execute( GXv_char2, GXv_char1) ;
+                             ^
+  symbol:   class proyecionfacturadosalidaexcel
+  location: package uy.edu.dgeip.abonos
+T:\Kbs\Abonos218U5Dario\DESA\web\src\main\java\uy\edu\dgeip\abonos\reportescontables_impl.java:888: error: cannot find symbol
+      new uy.edu.dgeip.abonos.xlsabonos1(remoteHandle, context).execute( GXv_char2, GXv_char1) ;
+                             ^
+  symbol:   class xlsabonos1
+  location: package uy.edu.dgeip.abonos
+T:\Kbs\Abonos218U5Dario\DESA\web\src\main\java\uy\edu\dgeip\abonos\reportescontables_impl.java:921: error: cannot find symbol
+      new uy.edu.dgeip.abonos.funcionariosconabonosfechadadaexcel(remoteHandle, context).execute( GXv_char2, GXv_char1) ;
+                             ^
+  symbol:   class funcionariosconabonosfechadadaexcel
+  location: package uy.edu.dgeip.abonos
+T:\Kbs\Abonos218U5Dario\DESA\web\src\main\java\uy\edu\dgeip\abonos\reportescontables_impl.java:938: error: cannot find symbol
+      new uy.edu.dgeip.abonos.excelfuncionarioscantidaddeabonospormes(remoteHandle, context).execute( AV9InicioAnio, GXv_char2, GXv_char1) ;
+                             ^
+  symbol:   class excelfuncionarioscantidaddeabonospormes
+  location: package uy.edu.dgeip.abonos
+T:\Kbs\Abonos218U5Dario\DESA\web\src\main\java\uy\edu\dgeip\abonos\reportescontables_impl.java:955: error: cannot find symbol
+      new uy.edu.dgeip.abonos.funcionariosconabonosfechadadaexcelcopy117062021(remoteHandle, context).execute( GXv_char2, GXv_char1) ;
+                             ^
+  symbol:   class funcionariosconabonosfechadadaexcelcopy117062021
+  location: package uy.edu.dgeip.abonos
+T:\Kbs\Abonos218U5Dario\DESA\web\src\main\java\uy\edu\dgeip\abonos\reportescontables_impl.java:972: error: cannot find symbol
+      new uy.edu.dgeip.abonos.excelfuncionarioscantidaddeabonospormespersona(remoteHandle, context).execute( AV9InicioAnio, GXv_char2, GXv_char1) ;
+                             ^
+  symbol:   class excelfuncionarioscantidaddeabonospormespersona
+  location: package uy.edu.dgeip.abonos
+T:\Kbs\Abonos218U5Dario\DESA\web\src\main\java\uy\edu\dgeip\abonos\reportescontables_impl.java:989: error: cannot find symbol
+      new uy.edu.dgeip.abonos.excelfuncionarioscantidaddeabonospormesnodocentes(remoteHandle, context).execute( AV9InicioAnio, GXv_char2, GXv_char1) ;
+                             ^
+  symbol:   class excelfuncionarioscantidaddeabonospormesnodocentes
+  location: package uy.edu.dgeip.abonos
+T:\Kbs\Abonos218U5Dario\DESA\web\src\main\java\uy\edu\dgeip\abonos\reportescontables_impl.java:1014: error: cannot find symbol
+      new uy.edu.dgeip.abonos.excelabonosdepartamentoorigendestinocopy117062021(remoteHandle, context).execute( AV9InicioAnio, GXv_char2, GXv_char1) ;
+                             ^
+  symbol:   class excelabonosdepartamentoorigendestinocopy117062021
+  location: package uy.edu.dgeip.abonos
+T:\Kbs\Abonos218U5Dario\DESA\web\src\main\java\uy\edu\dgeip\abonos\reportescontables_impl.java:1031: error: cannot find symbol
+      new uy.edu.dgeip.abonos.excelabonosdepartamentoorigendestinocopy117062021copy1parasandra(remoteHandle, context).execute( AV9InicioAnio, GXv_char2, GXv_char1) ;
+                             ^
+  symbol:   class excelabonosdepartamentoorigendestinocopy117062021copy1parasandra
+  location: package uy.edu.dgeip.abonos
+T:\Kbs\Abonos218U5Dario\DESA\web\src\main\java\uy\edu\dgeip\abonos\reportescontables_impl.java:1048: error: cannot find symbol
+      new uy.edu.dgeip.abonos.xlsabonoscodicen15052023(remoteHandle, context).execute( GXv_char2, GXv_char1) ;
+                             ^
+  symbol:   class xlsabonoscodicen15052023
+  location: package uy.edu.dgeip.abonos
+T:\Kbs\Abonos218U5Dario\DESA\web\src\main\java\uy\edu\dgeip\abonos\reportescontables_impl.java:1065: error: cannot find symbol
+      new uy.edu.dgeip.abonos.excelabonosdepartamentoorigendestinocopy117062021(remoteHandle, context).execute( AV9InicioAnio, GXv_char2, GXv_char1) ;
+                             ^
+  symbol:   class excelabonosdepartamentoorigendestinocopy117062021
+  location: package uy.edu.dgeip.abonos
+T:\Kbs\Abonos218U5Dario\DESA\web\src\main\java\uy\edu\dgeip\abonos\reportescontables_impl.java:1097: error: cannot find symbol
+      new uy.edu.dgeip.abonos.abonosareaatributoexcel(remoteHandle, context).execute( GXv_char2, GXv_char1) ;
+                             ^
+  symbol:   class abonosareaatributoexcel
+  location: package uy.edu.dgeip.abonos
+T:\Kbs\Abonos218U5Dario\DESA\web\src\main\java\uy\edu\dgeip\abonos\reptotpromesabo_impl.java:1409: error: cannot find symbol
+      new uy.edu.dgeip.abonos.obtempnom(remoteHandle, context).execute( AV11EmpId, GXv_char7) ;
+                             ^
+  symbol:   class obtempnom
+  location: package uy.edu.dgeip.abonos
+T:\Kbs\Abonos218U5Dario\DESA\web\src\main\java\uy\edu\dgeip\abonos\reptotpromesabo_impl.java:1429: error: cannot find symbol
+      new uy.edu.dgeip.abonos.obtempnom(remoteHandle, context).execute( AV11EmpId, GXv_char7) ;
+                             ^
+  symbol:   class obtempnom
+  location: package uy.edu.dgeip.abonos
+T:\Kbs\Abonos218U5Dario\DESA\web\src\main\java\uy\edu\dgeip\abonos\reptotpromesabo_impl.java:1445: error: cannot find symbol
+      new uy.edu.dgeip.abonos.obtempnom(remoteHandle, context).execute( AV11EmpId, GXv_char7) ;
+                             ^
+  symbol:   class obtempnom
+  location: package uy.edu.dgeip.abonos
+T:\Kbs\Abonos218U5Dario\DESA\web\src\main\java\uy\edu\dgeip\abonos\verparproabo_impl.java:668: error: cannot find symbol
+      new uy.edu.dgeip.abonos.isauthorized(remoteHandle, context).execute( AV11Pgmname, GXv_boolean2) ;
+                             ^
+  symbol:   class isauthorized
+  location: package uy.edu.dgeip.abonos
+T:\Kbs\Abonos218U5Dario\DESA\web\src\main\java\uy\edu\dgeip\abonos\viewdeploc_impl.java:673: error: cannot find symbol
+      if ( ! new uy.edu.dgeip.abonos.isauthorized(remoteHandle, context).executeUdp( AV15Pgmname) )
+                                    ^
+  symbol:   class isauthorized
+  location: package uy.edu.dgeip.abonos
+T:\Kbs\Abonos218U5Dario\DESA\web\src\main\java\uy\edu\dgeip\abonos\wpconfirmardesasociarabonos_impl.java:749: error: cannot find symbol
+      new uy.edu.dgeip.abonos.obtengodatosrealesdelafactura(remoteHandle, context).execute( AV7EmpId, AV6EmpFacSer, AV5EmpFacNro, GXv_int1, GXv_char2, GXv_char3, GXv_int4) ;
+                             ^
+  symbol:   class obtengodatosrealesdelafactura
+  location: package uy.edu.dgeip.abonos
+45 errors
+> Task :compileJava FAILED
+> Task :copyAdditionalFiles
+> Task :copyRuntimeLibs
+> Task :buildGenexus
+FAILURE: Build failed with an exception.
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+* Get more help at https://help.gradle.org
+BUILD FAILED in 13s
+4 actionable tasks: 4 executed
+Failed: DeveloperMenu Compilation for Default (Java)
+Failed: Rebuild All
+
 
 
 Configuracion: Tomcat Patch: T:\Apache_Tomcat

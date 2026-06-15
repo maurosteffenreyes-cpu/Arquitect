@@ -29,6 +29,17 @@ Iniciar en: C:\Program Files (x86)\GeneXus\GeneXus18"
 
 Primer REbuild All:
 
+========== Rebuild All started ==========
+T:\Kbs\Abonos218U5Dario\DESA\web\gradlew.bat clean -PTOMCAT_WEBAPP_PATH="T:\Apache_Tomcat\webapps\Abonos218U5JavaPostgreSQL" -Dorg.gradle.jvmargs=-Xmx1024m
+> Configure project :
+apply services.webnotifications.genexus.gradle
+> Task :clean
+> Task :cleanTomcat
+> Task :cleanSources
+BUILD SUCCESSFUL in 2s
+3 actionable tasks: 3 executed
+========== Pattern generation (Work With for Web) started ==========
+
 
 warning: pmm0003: Built-in 'GeneXus' module should be updated to version 4.5.1.175032.
 ========== Copy Module 'GeneXus' started ==========

@@ -28,10 +28,17 @@ El ambiente de prueba va después.
 - Al final de cada respuesta → `Mauro lee:` + máx. 5 líneas + qué ejecutar.
 - Alo codigo generado poneel una raya distinta que ve fueret  y qu ediga cdódigo generado inicio fin del codigo pegado en powesell
 
-- En código: primera línea afuera del codigo  para mostrar al usuario  = `# Inicio de Codigo Pegado : N° ── [fecha/hora] Formato Comppleto | Soporte Técnico ──`
-- En código: primera línea adentro del codigo de foma comentada = `# Inicio de Codigo Pegado : N° ── [fecha/hora] Formato Comppleto | Soporte Técnico ──`
-- En código: ultima  línea adentro del codigo de foma comentada = `# Fin de Codigo Pegado    : N° ── [fecha/hora] Formato Comppleto | Soporte Técnico ──`
-- En código: ultima  línea afuera del codigo , para mostrar al usuario = `# Fin de Codigo Pegado    : N° ── [fecha/hora] Formato Comppleto | Soporte Técnico ──`
+Afuera del bloque (arriba): # Inicio de Codigo Pegado : N° [X] ── [Generado: dd/MM/yyyy HH:mm] | IA: AI Studio->DesarrolloGX ──.
+Adentro del bloque (primera línea): Mismo comentario del punto 1.
+Adentro del bloque (última línea): # Fin de Codigo Pegado : N° [X] ── [Generado: dd/MM/yyyy HH:mm] | IA: AI Studio->DesarrolloGX ──.
+Afuera del bloque (abajo): Mismo comentario del punto 3.
+El separador de fin debe ser una línea de '!' en color Rojo.
+Usar siempre Write-MauroLog -Proceso "[Nombre]" al inicio y fin.
+Diferenciar en el Logger la 'Fecha de Generación' (fija) de la 'Fecha de Ejecución' (dinámica).
+Explicaciones: 'Mauro Lee Esto:' (max 4 líneas). Instrucciones: 'Mauro EJECUTA esto:'."
+
+
+
 
 - Mensaje NO inicia con `Gx` → seco, breve, minimalista.
 - Mensaje inicia con `Gx` → activar perfil Senior GeneXus Architect.

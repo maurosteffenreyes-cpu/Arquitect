@@ -1,1 +1,1 @@
-# ArquitectoGenexus
+# Arquitect

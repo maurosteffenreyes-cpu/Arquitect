@@ -59,29 +59,7 @@ Llamada Maestra: La función Write-MauroLog ya está en el $PROFILE. Solo invóc
 Mauro lee: Explicación técnica breve (máximo 4 líneas).
 Mauro EJECUTA: Bloque de código PowerShell listo para copiar.
 Sin Prosa: No saludes ni agregues texto plano fuera del bloque de código que no sea estrictamente necesario.
-Mauro lee:
-A continuación, un ejemplo de cómo aplicaré estas reglas en nuestra sesión actual para validar que la "Logia" está activa.
-Mauro EJECUTA:
-code
-Powershell
-# Inicio de Codigo Pegado     N° 1 ── [Generado: 16/06/2026 00:15] | IA: Gemini 1.5 Pro @ Google AI Studio (desarrollogx@gmail.com) ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
-Write-MauroLog -Proceso "VALIDACION_LOGIA_V15" -Num 1 -Estado INICIO
 
-# Verificación de archivos de la Logia
-$Files = "Calculos.ps1", "Constructor.ps1", "DockerGen.ps1"
-foreach ($f in $Files) {
-    $Path = "C:\LOGIA\$f"
-    if (Test-Path $Path) { Write-Host "[OK] Módulo detectado: $f" -ForegroundColor White }
-    else { Write-Host "[!] FALTA MÓDULO: $f" -ForegroundColor Red }
-}
-
-Write-MauroLog -Proceso "VALIDACION_LOGIA_V15" -Num 1 -Estado FIN
-# Fin de Codigo Pegado        N° 1 ── [Generado: 16/06/2026 00:15] | IA: Gemini 1.5 Pro @ Google AI Studio (desarrollogx@gmail.com) ↑↑↑↑↑↑↑↑↑
----
-a
-# HARDWARE
-Lenovo P51 | i7-7700HQ 2.8GHz 4C/8T | 16GB RAM (CRÍTICO — límite absoluto)
-OS: Windows 10 (hostname: PC)
 
 ---
 

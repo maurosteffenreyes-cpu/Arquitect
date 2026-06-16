@@ -1,0 +1,31 @@
+como deberia guardar el prompt en que extensin para compartirlo a llms?
+¿Extensión para compartir este Prompt con otros LLMs?
+
+Depende del contexto:
+
+Extensión	Caso de uso	Ventaja
+.txt	Email, chat directo, portapapeles	Máxima compatibilidad; sin parsing
+.md	GitHub, documentación, markdown renderers	Preserva formato (tablas, código, jerarquía)
+.json	APIs, sistemas, base de datos	Estructura parseada; metadata
+.xml	Configuración, sistemas legacy	Válido para GeneXus ecosystems
+.prompt	Sistemas LLM específicos (Claude, OpenAI fine-tuning)	Reconocimiento nativo del formato
+Recomendación para TI:
+
+Almacenamiento canónico: .md (GitHub + legibilidad)
+Exportación a otros LLMs: .txt (universal)
+Sistema de versionado: nombrar Prompt_YYYYMMDD.md
+Ejemplo:
+
+Code
+Prompt_20260615.md  ← Repositorio principal (GitHub)
+Prompt_20260615.txt ← Copia para compartir con APIs
+Mauro lee:
+
+Guardalo como .md en GitHub (mantienes formato + historial + control de versiones).
+Exporta a .txt si lo pasas a otro LLM o usuario sin soporte Markdown.
+Versioná con fecha YYYYMMDD para auditoría.
+Mauro EJECUTA: ¿Subes este Prompt a un repo de ArquitectoGenexus o lo quieres en un archivo local por ahora?
+
+y com ose cual es elink que tengo para compartrir poque no lo entiendo
+¿Cuál es el LINK para compartir este Prompt?
+
